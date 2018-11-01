@@ -1,0 +1,35 @@
+* {
+    color:#fff;
+}
+#contact-container{
+    position:relative;
+}
+#contact-position{
+    position:absolute;
+    margin-left:-25%;
+    padding-top:24vh;
+    width:25%;
+    opacity: 0;
+    transition:2s;
+    z-index:5;
+}
+.contact-categories-container{
+    margin-bottom:4vh;
+}
+.contact-categories-title{
+    padding-bottom:1vh;
+    margin-bottom:2vh;
+    border-bottom:solid #fff 0.2px;
+}
+.contact-line{
+    margin-bottom: 1.5vh;
+}
+.contact-link{
+    text-decoration: none;
+    transition:1s;
+}
+.contact-link:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition:1s;
+}

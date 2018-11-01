@@ -1,0 +1,13 @@
+* {
+    color:#fff;
+}
+
+#hello-container{
+    position: relative;
+}
+#hello-position{
+    position: absolute;
+    margin-left:20%;
+    padding-top:45vh;
+    transition:2s;
+}

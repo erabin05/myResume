@@ -1,0 +1,17 @@
+* {
+    color: #fff;
+}
+
+#hobbies-container {
+    position: relative;
+}
+#hobbies-position {
+    position: absolute;
+    margin-left: 20%;
+    opacity: 0;
+    transition: 2.3s
+}
+#hobbies-content-container {
+    margin-top: -2vh;
+    transition: 2.3s;
+}

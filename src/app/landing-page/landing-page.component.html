@@ -1,0 +1,51 @@
+<div id="landing-page-background">
+    <!-- BOOK PAGE -->
+    <app-book></app-book>
+    <!-- Button "to fun facts" -- 2 -->
+  <div id="button-to-fun-facts-container" class="button-container none">
+    <div id="button-to-fun-facts" (click)="moveToFunFacts()" class="button">{{button2}}</div>
+  </div>
+  <!-- EXPERIENCE PAGE -->
+  <app-experiences></app-experiences>
+  <!-- Button "to Book" -- 4 -->
+  <div id="button-to-book-container" class="button-container none">
+      <div id="button-to-book" (click)="moveToBook()" class="button">{{button4}}</div>
+  </div>
+  <!-- Button "to yes or no" -- 6 -->
+  <div id="button-to-question-container" class="button-container none">
+      <div id="button-to-question" (click)="moveToContact()" class="button">{{button6}}</div>
+  </div>
+  <!-- HELLO PAGE -->
+  <app-hello></app-hello>
+  <!-- SKILLS PAGE -->
+  <app-skills></app-skills>
+  <!-- HOBBIES -->
+  <app-hobbies></app-hobbies>
+  <!-- QUESTION -->
+  <app-question></app-question>
+  <!-- QUESTION -->
+  <app-contact></app-contact>
+  <!-- Square -->
+  <div id="landing-page-square-container">
+    <div id="landing-page-square">
+        <!-- Button "to hobbies" -- 5 -->
+        <div id="button-to-hobbies-container" class="button-container none">
+            <div id="button-to-hobbies" (click)="moveToHobbies()" class="button">{{button5}}</div>
+        </div>
+    </div>
+  </div>
+  <!--  -->
+  <!-- Button "to skills" -- 1 -->
+  <div id="button-to-skills-container" class="button-container">
+    <div id="button-to-skills" (click)="moveToSkills()" class="button">{{button1}}</div>
+  </div>
+  <!-- Button "to experiences" -- 3 -->
+  <div id="button-to-experiences-container" class="button-container none">
+    <div id="button-to-experiences" (click)="moveToExperiences()" class="button">{{button3}}</div>
+  </div>
+  <!-- Button "to restart" -- 8 -->
+  <div id="button-to-hello-container" class="button-container none">
+      <div id="button-to-hello" (click)="moveToRestart()" class="button">{{button8}}</div>
+  </div>
+  
+</div>
