@@ -1,36 +1,55 @@
+
+<div id="book-popup-container" class="none">
+    <div id="book-popup-position" (click)="closePopUpBook()">
+        <img id="book-popup-cross" src="../../assets/pop_up_cross.png">
+        <div id="book-popup-infos-container">
+            <div id="book-popup-img-container">
+                    <img src={{imgPopUp}}/>
+            </div>
+            <div id="book-popup-text-container">
+                <div id="book-popup-text-position">
+                    <div id="book-popup-text-title" class="title">{{titlePopUp}}</div> 
+                    <div id="book-popup-text" class="list">{{textPopUp}}</div> 
+                    <a id="book-popup-link" class="list" href={{linkPopUp}} target="blank">View more here</a> 
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
 <div id="book-container">
     <div id="book-position" class="none" >
       <div id="book-images">
         <!-- first column -->
         <div id="book-images-first-column" class="book-image-column">
-          <div id="book-images-first-column-square1" class="book-square"></div>
+          <div id="book-images-first-column-square1" class="book-square" [ngStyle]="{'background-image': 'url('+img[0].img+')'}" (click)="popUpBook(img[0].img, img[0].title, img[0].text, img[0].link)"><div class="book-square-title list">{{img[0].title}}</div></div>
           <div id="book-images-first-column-row" class="book-image-row">
-              <div id="book-images-first-column-square2" class="book-square"></div>
-              <div id="book-images-first-column-square3" class="book-square"></div>
+              <div id="book-images-first-column-square2" class="book-square" [ngStyle]="{'background-image': 'url('+img[1].img+')'}" (click)="popUpBook(img[1].img, img[1].title, img[1].text, img[1].link)"><div class="book-square-title list">{{img[1].title}}</div></div>
+              <div id="book-images-first-column-square3" class="book-square" [ngStyle]="{'background-image': 'url('+img[2].img+')'}" (click)="popUpBook(img[2].img, img[2].title, img[2].text, img[2].link)"><div class="book-square-title list">{{img[2].title}}</div></div>
           </div>
         </div>
         <!-- second column -->
         <div id="book-images-second-column" class="book-image-column">
             <div id="book-images-second-column-row" class="book-image-row">
-                <div id="book-images-second-column-square1" class="book-square"></div>
+                <div id="book-images-second-column-square1" class="book-square" [ngStyle]="{'background-image': 'url('+img[3].img+')'}" (click)="popUpBook(img[3].img, img[3].title, img[3].text, img[3].link)"><div class="book-square-title list">{{img[3].title}}</div></div>
                 <div id="book-images-second-column-column" class="book-image-column">
-                    <div id="book-images-second-column-square2" class="book-square"></div>
-                    <div id="book-images-second-column-square3" class="book-square"></div>
+                    <div id="book-images-second-column-square2" class="book-square" [ngStyle]="{'background-image': 'url('+img[4].img+')'}" (click)="popUpBook(img[4].img, img[4].title, img[4].text, img[4].link)"><div class="book-square-title list">{{img[4].title}}</div></div>
+                    <div id="book-images-second-column-square3" class="book-square" [ngStyle]="{'background-image': 'url('+img[5].img+')'}" (click)="popUpBook(img[5].img, img[5].title, img[5].text, img[5].link)"><div class="book-square-title list">{{img[5].title}}</div></div>
                 </div>
             </div>
-            <div id="book-images-second-column-square4" class="book-square"></div>
+            <div id="book-images-second-column-square4" class="book-square" [ngStyle]="{'background-image': 'url('+img[6].img+')'}" (click)="popUpBook(img[6].img, img[6].title, img[6].text, img[6].link)"><div class="book-square-title list">{{img[6].title}}</div></div>
 
         </div>
         <!-- third column -->
         <div id="book-images-third-column" class="book-image-column">
-            <div id="book-images-third-column-square1" class="book-square"></div>
+            <div id="book-images-third-column-square1" class="book-square" [ngStyle]="{'background-image': 'url('+img[7].img+')'}" (click)="popUpBook(img[7].img, img[7].title, img[7].text, img[7].link)"><div class="book-square-title list">{{img[7].title}}</div></div>
             <div id="book-images-third-column-row1" class="book-image-row">
-                <div id="book-images-third-column-square2" class="book-square"></div>
-                <div id="book-images-third-column-square3" class="book-square"></div>
+                <div id="book-images-third-column-square2" class="book-square" [ngStyle]="{'background-image': 'url('+img[8].img+')'}" (click)="popUpBook(img[8].img, img[8].title, img[8].text, img[8].link)"><div class="book-square-title list">{{img[8].title}}</div></div>
+                <div id="book-images-third-column-square3" class="book-square" [ngStyle]="{'background-image': 'url('+img[9].img+')'}" (click)="popUpBook(img[9].img, img[9].title, img[9].text, img[9].link)"><div class="book-square-title list">{{img[9].title}}</div></div>
             </div>
             <div id="book-images-third-column-row2" class="book-image-row">
-                <div id="book-images-third-column-square4" class="book-square"></div>
-                <div id="book-images-third-column-square5" class="book-square"></div>
+                <div id="book-images-third-column-square4" class="book-square" [ngStyle]="{'background-image': 'url('+img[10].img+')'}" (click)="popUpBook(img[10].img, img[10].title, img[10].text, img[10].link)"><div class="book-square-title list">{{img[10].title}}</div></div>
+                <div id="book-images-third-column-square5" class="book-square" [ngStyle]="{'background-image': 'url('+img[11].img+')'}" (click)="popUpBook(img[11].img, img[11].title, img[11].text, img[11].link)"><div class="book-square-title list">{{img[11].title}}</div></div>
             </div>
 
         </div>

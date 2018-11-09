@@ -14,6 +14,7 @@ import { QuestionComponent } from './question/question.component';
 import { HelloComponent } from './hello/hello.component';
 import { TictacDirective } from './tictac.directive';
 import { BigBookPictureDirective } from './big-book-picture.directive';
+import { TimeLineDirective } from './time-line.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BigBookPictureDirective } from './big-book-picture.directive';
     QuestionComponent,
     HelloComponent,
     TictacDirective,
-    BigBookPictureDirective
+    BigBookPictureDirective,
+    TimeLineDirective
   ],
   imports: [
     BrowserModule,

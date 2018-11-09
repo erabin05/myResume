@@ -101,4 +101,23 @@ export class QuestionComponent implements OnInit {
     },1500);
   }
 
+  resetQuestion():void{
+    let firstButtonContainer = document.getElementById("question-button-yes");
+    let secondButtonContainer = document.getElementById("question-button-no");
+    let thirdButtons = document.getElementById("question-button-sendmessage");
+
+    setTimeout(()=>{
+      this.question = "Would you hire me ?";
+      this.questionSecondLine= "";
+      this.firstButton ="Yes";
+      this.secondButton ="No";
+      thirdButtons.classList.add("none")
+      thirdButtons.style.opacity = "0"
+      firstButtonContainer.classList.remove("none");
+      secondButtonContainer.classList.remove("none");
+      firstButtonContainer.style.opacity = "1";
+      secondButtonContainer.style.opacity = "1";
+    },2000);
+  }
+
 }

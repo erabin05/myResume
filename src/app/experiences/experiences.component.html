@@ -15,54 +15,66 @@
                   <div class="experience-year"><div class="experience-timeline-raw"></div><div class=" list">2012</div></div>
                   <div class="experience-year"><div class="experience-timeline-raw"></div><div class=" list">2011</div></div>
                   <div class="experience-year"><div class="experience-timeline-raw"></div><div class=" list">2010</div></div>
-                  <div class="experience-year"><div class="experience-timeline-raw"></div><div class=" list">2009</div></div>
-                  <div class="experience-year"><div class="experience-timeline-raw"></div><div class=" list">2008</div></div>
-                  <div class="experience-year"><div class="experience-timeline-raw"></div><div class=" list">2007</div></div>
-                  <div class="experience-year"><div class="experience-timeline-raw"></div><div class=" list">2006</div></div>
-                  <div class="experience-year"><div class="experience-timeline-raw"></div><div class=" list">2005</div></div>
                 </div>
             </div>
           <!-- line studies -->
           <div id="experience-timeline-line-studies" class="experience-timeline-line">
             <div id="wild-code-school" id="wild-code-school" class="experience-experience">
               <div class="experience-name list">Wild Code School</div>
-              <div (click)="wildCodeSchool()" id="wild-code-school-box"class="experience-box"></div>
+              <div (click)="textChange('wild')" id="wild-code-school-box"class="experience-box" (mouseenter)="boxEnter('wild-code-school-box')" (mouseleave)="boxLeave('wild-code-school-box')"></div>
             </div>
             <div id="pivaut" class="experience-experience">
                 <div class="experience-name list">Pivaut school</div>
-                <div (click)="pivaut4()" id="pivaut4-box" class="experience-box"></div>
-                <div (click)="pivaut3()" id="pivaut3-box" class="experience-box"></div>
-                <div (click)="pivaut2()" id="pivaut2-box" class="experience-box"></div>
-                <div (click)="pivaut1()" id="pivaut1-box" class="experience-box"></div>
+                <div (click)="textChange('pivaut4')" id="pivaut4-box" class="experience-box" (mouseenter)="boxEnter('pivaut4-box')" (mouseleave)="boxLeave('pivaut4-box')"></div>
+                <div (click)="textChange('pivaut3')" id="pivaut3-box" class="experience-box" (mouseenter)="boxEnter('pivaut3-box')" (mouseleave)="boxLeave('pivaut3-box')"></div>
+                <div (click)="textChange('pivaut2')" id="pivaut2-box" class="experience-box" (mouseenter)="boxEnter('pivaut2-box')" (mouseleave)="boxLeave('pivaut2-box')"></div>
+                <div (click)="textChange('pivaut1')" id="pivaut1-box" class="experience-box" (mouseenter)="boxEnter('pivaut1-box')" (mouseleave)="boxLeave('pivaut1-box')"></div>
             </div>
             <div id="highschool" class="experience-experience">
                 <div class="experience-name list">Highschool</div>
-                <div (click)="highschool()" id="highschool3-box"class="experience-box"></div>
-                <div (click)="highschool()" id="highschool2-box"class="experience-box"></div>
-                <div (click)="highschool()" id="highschool1-box"class="experience-box"></div>
+                <div (click)="textChange('highschool3')" id="highschool3-box"class="experience-box" (mouseenter)="boxEnter('highschool3-box')" (mouseleave)="boxLeave('highschool3-box')"></div>
+                <div (click)="textChange('highschool2')" id="highschool2-box"class="experience-box" (mouseenter)="boxEnter('highschool2-box')" (mouseleave)="boxLeave('highschool2-box')"></div>
+                <div (click)="textChange('highschool1')" id="highschool1-box"class="experience-box" (mouseenter)="boxEnter('highschool1-box')" (mouseleave)="boxLeave('highschool1-box')"></div>
             </div>
           </div>
           <!-- line profesional -->
           <div id="experience-timeline-profesional" class="experience-timeline-line">
             <div id="agence-nature" class="experience-experience">
                 <div class="experience-name list">Agence Nature</div>
-                <div (click)="agenceNature()" class="experience-box"></div>
+                <div (click)="textChange('agenceNature')" id="agence-nature-box" class="experience-box" (mouseenter)="boxEnter('agence-nature-box')" (mouseleave)="boxLeave('agence-nature-box')"></div>
             </div>
             <div id="cqfd" class="experience-experience">
                 <div class="experience-name list">CQFD</div>
-                <div (click)="CQFD2()" id="cqfd2" class="experience-box"></div>
-                <div (click)="CQFD1()" id="cqfd1" class="experience-box"></div>
+                <div (click)="textChange('cqfd2')" id="cqfd2-box" class="experience-box" (mouseenter)="boxEnter('cqfd2-box')" (mouseleave)="boxLeave('cqfd2-box')"></div>
+                <div (click)="textChange('cqfd1')" id="cqfd1-box" class="experience-box" (mouseenter)="boxEnter('cqfd1-box')" (mouseleave)="boxLeave('cqfd1-box')"></div>
             </div>
-            <div id="contrat-bleu" class="experience-experience">
+            <div id="contrat-bleu3" class="experience-experience">
                 <div class="experience-name list">Contrats Bleus</div>
-                <div (click)="contratsBleus()" class="experience-box"></div>
+                <div (click)="textChange('contratsBleus3')" id="contrat-bleu-box3"class="experience-box" (mouseenter)="boxEnter('contrat-bleu-box3')" (mouseleave)="boxLeave('contrat-bleu-box3')"></div>
             </div>
+            <div id="berdhuis" class="experience-experience">
+                <div class="experience-name list">Commune de Berd'huis</div>
+                <div (click)="textChange('berdhuis')" id="berdhuis-box"class="experience-box" (mouseenter)="boxEnter('berdhuis')" (mouseleave)="boxLeave('berdhuis')"></div>
+            </div>
+            <div id="contrat-bleu2" class="experience-experience">
+                <div class="experience-name list">Contrats Bleus</div>
+                <div (click)="textChange('contratsBleus2')" id="contrat-bleu-box2"class="experience-box" (mouseenter)="boxEnter('contrat-bleu-box2')" (mouseleave)="boxLeave('contrat-bleu-box2')"></div>
+            </div>
+            <div id="jouy" class="experience-experience">
+                <div class="experience-name list">Pep 28</div>
+                <div (click)="textChange('jouy')" id="jouy-box"class="experience-box" (mouseenter)="boxEnter('jouy-box')" (mouseleave)="boxLeave('jouy-box')"></div>
+            </div>
+            <div id="contrat-bleu1" class="experience-experience">
+                <div class="experience-name list">Contrats Bleus</div>
+                <div (click)="textChange('contratsBleus1')" id="contrat-bleu-box1"class="experience-box" (mouseenter)="boxEnter('contrat-bleu-box1')" (mouseleave)="boxLeave('contrat-bleu-box1')"></div>
+            </div>
+            
           </div>
           <!-- line other -->
           <div id="experience-timeline-line-others" class="experience-timeline-line">
               <div id="guinee" class="experience-experience">
                   <div class="experience-name list">Voluntary work</div>
-                  <div  (click)="voluntaryWork()" class="experience-box"></div>
+                  <div  (click)="textChange('guinee')" id="guinee-box" class="experience-box" (mouseenter)="boxEnter('guinee-box')" (mouseleave)="boxLeave('guinee-box')"></div>
               </div>
           </div>
           <!-- line other -->
@@ -71,8 +83,8 @@
       <div id="experience-square-elements-container">
             <div id="experience-square-buttons-container">
                     <div id="experience-square-buttons">
-                        <div id="experience-square-button-left" class="experience-square-button"></div>
-                        <div id="experience-square-button-right" class="experience-square-button"></div>
+                        <div id="experience-square-button-left" class="experience-square-button" (mousedown)="startScrollingLeft()" (mouseup)="stopScrollLeft()" (mouseenter)="boxEnter('experience-square-button-left')" (mouseleave)="boxLeave('experience-square-button-left')"></div>
+                        <div id="experience-square-button-right" class="experience-square-button" (mousedown)="startScrollingRight()" (mouseup)="stopScrollRight() " (mouseenter)="boxEnter('experience-square-button-right')" (mouseleave)="boxLeave('experience-square-button-right')"></div>
                     </div>
             </div>
             <div id="experience-square-description-container">
@@ -81,6 +93,8 @@
                 <div id="experience-square-elements-text" class="list experience-square">{{experienceText}}</div>
                 <div id="experience-square-elements-description" class="list experience-square">{{experienceDescription}}</div>
             </div> 
+            <div id="experience-square-animation-container" >
+            </div>
       </div>
     </div>
 </div>

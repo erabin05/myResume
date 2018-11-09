@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { trigger, state, style, animate, transition, query } from '@angular/animations';
 
 @Component({
@@ -23,10 +23,29 @@ export class LandingPageComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() { 
-    
+  public handDrawing = 1;
+  public portrait = 1;
 
+  ngOnInit() { 
+
+    setTimeout(()=>{
+      const portraitContainer = document.getElementById("portrait-animation-container");
+      portraitContainer.style.opacity = "1";
+    },500);
+
+    setInterval(()=>{
+      if(this.handDrawing == 30){
+        this.handDrawing = 0;
+      }
+      if(this.portrait == 31){
+        this.portrait = 0;
+      }
+      this.handDrawing++;
+      this.portrait++;
+    },130)
   }
+
+  public gallery:string[]=["../../assets/drawing/drawing1","../../assets/drawing/drawing2"];
 
   public button1:string ="Get to know me";
   public button2:string ="fun facts";
@@ -35,6 +54,9 @@ export class LandingPageComponent implements OnInit {
   public button5:string ="and what i like";
   public button6:string ="Now the big question";
   public button8:string ="Have another look";
+
+
+  
 
 // To skills --------- 1 -----------
 
@@ -81,8 +103,23 @@ export class LandingPageComponent implements OnInit {
       skillsContainer.classList.remove("none");
     setTimeout(() => {
       skillsContainer.style.opacity = "1";
-      skillsPosition.style.marginTop = "18vh";
+      skillsPosition.style.marginTop = "13vh";
     },1150);
+
+    // Next Animation - hand drawing
+      const handContainer = document.getElementById("hand-animation-container");
+      handContainer.classList.remove("none");
+      setTimeout(() => {
+        handContainer.style.opacity ="1";
+      },1700);
+
+      // Current Animation - portrait
+    const portraitContainer = document.getElementById("portrait-animation-container");
+    portraitContainer.style.opacity ="0";
+    setTimeout(() => {
+      portraitContainer.classList.add("none");
+    },1500);
+
   }
 
 
@@ -129,7 +166,13 @@ export class LandingPageComponent implements OnInit {
       skillsPosition.style.marginLeft ="15%";
       skillsPosition.style.marginTop ="12vh";
     },2000);
-    // Next Page
+    
+    // Current Animation - hand drawing
+    const handContainer = document.getElementById("hand-animation-container");
+    handContainer.style.opacity ="0";
+    setTimeout(() => {
+      handContainer.classList.add("none");
+    },1500);
     
   }
   
@@ -175,6 +218,10 @@ export class LandingPageComponent implements OnInit {
     experiencesPosition.style.opacity = "1";
     timelineContainer.style.marginTop = "8vh";
     ;},1);
+
+    const timeline = document.getElementById("experience-timeline");
+    timeline.scrollLeft = 0;
+
   }
 
 
@@ -268,11 +315,11 @@ export class LandingPageComponent implements OnInit {
     
     // Current Page - Book
     bookContainer.style.opacity="0";
-    bookPosition.style.marginLeft="-60%";
+    bookPosition.style.marginLeft="-55%";
     bookPosition.style.marginRight="60%";
     setTimeout( ()=>{
       bookPosition.classList.add("none");
-      bookPosition.style.marginLeft="0";
+      bookPosition.style.marginLeft="5%";
       bookPosition.style.marginRight="0";
       bookPosition.style.marginTop="70vh";
     },2000);
@@ -383,6 +430,13 @@ export class LandingPageComponent implements OnInit {
     // Next Page
     helloPosition.classList.remove("none");
     setTimeout(() => {helloPosition.style.opacity ="1";},1);
+
+       // Current Animation - portrait
+       const portraitContainer = document.getElementById("portrait-animation-container");
+       portraitContainer.classList.remove("none");
+       setTimeout(() => {  
+         portraitContainer.style.opacity ="1";
+       },1);
 
     this.button1 = "Get to know me even more";
     this.button3 = "Back to the future";

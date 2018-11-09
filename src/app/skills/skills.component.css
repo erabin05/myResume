@@ -9,7 +9,7 @@
     
 }
 #skills-position{
-    margin-top:12vh;
+    margin-top:8vh;
     margin-left:15%;
     position:absolute;
     transition: 2s;
@@ -59,8 +59,10 @@
 /* Code */
 #htmlcss{width:90%;}
 #javascript{width:60%;}
+#java{width:30%;}
 #bootstrap{width:70%;}
 #angular{width:50%;}
+#git{width:50%;}
 /* Languages */
 #french{width:99%;}
 #english{width:60%;}

@@ -31,7 +31,7 @@
     text-transform: uppercase;
     font-size: 0.8em;
     transition: 1.5s;
-    z-index:5;
+    z-index:1000;
 }
 .button:hover {
     cursor: pointer;
@@ -152,12 +152,39 @@
     border-bottom: solid #040723 0.2px;
 }
 
-/* --- Texte --- */
 
-#myname {
-    color:#AFBCD8;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
+/* --- Animations --- */
+
+#hand-animation-container {
+    position:relative;
+    transition: 1.5s;
+    opacity: 0;
+}
+#hand-animation{
+    position: absolute;
+    width:30%;
+    height: 28vw;
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left:64%;
+    margin-top:35vh;
+    transition: 0.05s;
+}
+
+#portrait-animation-container{
+    position: relative;
+    transition: 1.5s;
+    opacity: 0;
+}
+#portrait-animation{
+    position: absolute;
+    width:28%;
+    height: 40vw;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+    margin-top: 8vh;
+    transition: 0.05s;
 }

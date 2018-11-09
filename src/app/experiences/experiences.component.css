@@ -4,6 +4,7 @@
 
 #experience-container {
     position: relative;
+    z-index: 1000;
 }
 #experience-position{
     margin-left:10%;
@@ -28,7 +29,7 @@
     width:100%;
     margin-bottom:1vh;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 .experience-experience {
     display: flex;
@@ -71,8 +72,20 @@
 #pivaut > .experience-box{width:24em;}
 #pivaut4-box, #pivaut3-box, #pivaut2-box {margin-right:7em;}
 
-#contrat-bleu{margin-left:17em;}
-#contrat-bleu > .experience-box{width:5em;}
+#contrat-bleu3{margin-left:22.5em;}
+#contrat-bleu3 > .experience-box{width:5em;}
+
+#contrat-bleu2{margin-left:22em;}
+#contrat-bleu2 > .experience-box{width:3em;}
+
+#contrat-bleu1{margin-left:20.5em;}
+#contrat-bleu1 > .experience-box{width:3em;}
+
+#berdhuis{margin-left:16.5em;}
+#berdhuis > .experience-box{width:3em;}
+
+#jouy{margin-left:24em;}
+#jouy > .experience-box{width:3em;}
 
 #highschool{margin-left:2em;}
 #highschool > .experience-box{width:24em;}
@@ -107,7 +120,7 @@
 #experience-square-elements-container{
     margin-left:-10%;
     margin-top:22vh;
-    width:80%;
+    width:110%;
     height: 20vh;
     display: flex;
     flex-direction: row;
@@ -164,4 +177,13 @@
 }
 #experience-square-button-right{
     background-image: url("../../assets/arrow_right.png");
+}
+
+#experience-square-animation-container{
+    width: 30%;
+    height: 20vw;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -10vh;
 }

@@ -3,11 +3,11 @@
       <div id="question-title" class="title">{{question}}</div>
       <div id="question-title-second-line" class="title question-line">{{questionSecondLine}}</div>
       <div id="question-button-container">
-        <div id="question-button-yes" (click)="moveToContact2()" class="question-button subtitle">{{firstButton}}</div>
+        <div id="question-button-yes" (click)="moveToContact2()" (click)="resetQuestion()" class="question-button subtitle">{{firstButton}}</div>
         <div id="question-button-no" (click)="areYouSure()" class="question-button subtitle">{{secondButton}}</div>
       </div>
       <div id="question-button-container2">
-        <div id="question-button-sendmessage" (click)="moveToContact2()" class="question-button subtitle none">{{thirdButton}}</div>
+        <div id="question-button-sendmessage" (click)="moveToContact2()" (click)="resetQuestion()" class="question-button subtitle none">{{thirdButton}}</div>
       </div>
     </div>
 </div>

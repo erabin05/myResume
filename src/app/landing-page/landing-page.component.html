@@ -1,4 +1,13 @@
 <div id="landing-page-background">
+    <!-- @nimation portrait -->
+        <div id="portrait-animation-container">
+            <div id="portrait-animation" [ngStyle]="{'background-image': 'url(../../assets/portrait/portrait'+portrait+'.png)'}"></div>
+        </div>
+    <!-- @nimation hand -->
+    <div id="hand-animation-container" class="none">
+        <div id="hand-animation" [ngStyle]="{'background-image': 'url(../../assets/drawing/drawing'+handDrawing+'.png)'}"></div>
+    </div>
+
     <!-- BOOK PAGE -->
     <app-book></app-book>
     <!-- Button "to fun facts" -- 2 -->
