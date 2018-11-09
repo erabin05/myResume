@@ -1,0 +1,59 @@
+#fact-container{
+    position: relative;
+    opacity: 0;
+    transition:2s;
+}
+#fact-position{
+    position: absolute;
+    width: 100%;
+    height: 47vh;
+    margin-top:22vh;
+    display: flex;
+    justify-content: center;
+    transition:2s;
+}
+#fact-content-container{
+    width:75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fact-content{
+    width: 30%;
+    height: 100%;
+    color:#fff
+}
+.fact-img{
+    width: 100%;
+}
+
+#fact-img1{
+    height: 25vh;
+    background:url("../../assets/firstDrawing.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#fact-img2{
+    height: 20vh;
+    background:url("../../assets/container.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#fact-img3{
+    height: 20vh;
+    background:url("../../assets/picture.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fact-text{
+    width: 100%;
+    margin-bottom:2vh;
+}
+
+#fact-content3 > .fact-title{
+    margin-top:4vh;
+}

@@ -427,12 +427,10 @@ public scrollLeft;
       switch (e.keyCode) {
           case 37:
            this.startScrollingLeft()
-            console.log("left")
             buttonLeft.style.opacity = "1"
               break;
           case 39:
             this.startScrollingRight()
-            console.log("right")
             buttonRight.style.opacity = "1"
               break;
       };
@@ -442,12 +440,10 @@ public scrollLeft;
       switch (e.keyCode) {
           case 37:
             this.stopScrollLeft();
-            console.log("leftdone")
             buttonLeft.style.opacity = "0.5"
               break;
           case 39:
             this.stopScrollRight();
-            console.log("rightdone")
             buttonRight.style.opacity = "0.5"
               break;
       };

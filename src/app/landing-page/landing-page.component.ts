@@ -43,12 +43,13 @@ export class LandingPageComponent implements OnInit {
       this.handDrawing++;
       this.portrait++;
     },130)
+
   }
 
   public gallery:string[]=["../../assets/drawing/drawing1","../../assets/drawing/drawing2"];
 
   public button1:string ="Get to know me";
-  public button2:string ="fun facts";
+  public button2:string ="3 things about me";
   public button3:string ="Let's travel in time";
   public button4:string ="Look what i did";
   public button5:string ="and what i like";
@@ -142,6 +143,7 @@ export class LandingPageComponent implements OnInit {
     const skillsContainer = document.getElementById("skills-container");
     const skillsPosition = document.getElementById("skills-position");
     // Next Page
+    const factContainer = document.getElementById("fact-container");
 
 
     // Current Button - Button to fun facts
@@ -166,6 +168,11 @@ export class LandingPageComponent implements OnInit {
       skillsPosition.style.marginLeft ="15%";
       skillsPosition.style.marginTop ="12vh";
     },2000);
+    // Next Page
+    factContainer.classList.remove("none")
+    setTimeout(()=>{
+      factContainer.style.opacity = "1";
+    },1000);
     
     // Current Animation - hand drawing
     const handContainer = document.getElementById("hand-animation-container");
@@ -191,6 +198,9 @@ export class LandingPageComponent implements OnInit {
     // Background
     const BackgroundPropriety = document.getElementById("landing-page-background");
 
+    // Current Page
+    const factContainer = document.getElementById("fact-container");
+    const factPosition = document.getElementById("fact-position");
     // NextPage
     const experiencesPosition = document.getElementById("experience-position");
     const timelineContainer = document.getElementById("experience-timeline-container");
@@ -212,6 +222,13 @@ export class LandingPageComponent implements OnInit {
      // Background
     BackgroundPropriety.style.backgroundColor = "#B6E9F1";
 
+    // Current Page
+    factContainer.style.opacity="0";
+    factPosition.style.marginTop="60vh"
+    setTimeout(()=>{
+      factContainer.classList.add("none");
+      factPosition.style.marginTop="22vh"
+    },2000)
     // Next Page
     experiencesPosition.classList.remove("none");
     setTimeout(() => {
@@ -267,7 +284,10 @@ export class LandingPageComponent implements OnInit {
     // Current Page
     experiencesPosition.style.opacity = "0";
     timelineContainer.style.marginTop = "-45vh";
-    setTimeout(() => {experiencesPosition.classList.add("none");},2000);
+    setTimeout(() => {
+      experiencesPosition.classList.add("none")
+      timelineContainer.style.marginTop = "-20vh";
+      ;},2000);
     // Next Page
     bookPosition.classList.remove("none")
     setTimeout(() => {
@@ -439,9 +459,10 @@ export class LandingPageComponent implements OnInit {
        },1);
 
     this.button1 = "Get to know me even more";
+    this.button2 ="the same 3 things about me";
     this.button3 = "Back to the future";
-    this.button4 = "Look what I did again";
-    this.button5 = "And what I like again";
+    this.button4 = "Look what I did, again";
+    this.button5 = "And what I like, again";
     this.button6 = "Now the question you answered";
   }
 }
