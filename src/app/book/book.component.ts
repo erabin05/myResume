@@ -43,7 +43,8 @@ export class BookComponent implements OnInit {
     },
     { "img":"../../assets/bountyHunter.png", 
       "title":"Booouhnty Hunter - Web development", 
-      "text":"You are a kid and you go treak or treating for Halloween. What you want is to list every candies you get, for that purpose we created Bounty Hunter. This project has been developed with my teammates Thomas Gonzalez, Maxime Gypteau and Gaetan Hardy during a Hackaton of 24 hours, during my training at the Wild Code school."
+      "text":"You are a kid and you go treak or treating for Halloween. What you want is to list every candies you get, for that purpose we created Bounty Hunter. This project has been developed with my teammates Thomas Gonzalez, Maxime Gypteau and Gaetan Hardy during a Hackathon of 24 hours, during my training at the Wild Code school.",
+      "link":"https://drgonzi.github.io/BountyHunter/"
     },
     { "img":"../../assets/stMaurice.png", 
       "title":"St-Maurice St-Germain - Graphic Design", 
