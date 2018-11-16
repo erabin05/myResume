@@ -30,21 +30,21 @@
 
 #fact-img1{
     height: 25vh;
-    background:url("../../assets/firstDrawing.png");
+    background:url("/assets/firstDrawing.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 #fact-img2{
     height: 20vh;
-    background:url("../../assets/container.png");
+    background:url("/assets/container.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 #fact-img3{
     height: 20vh;
-    background:url("../../assets/picture.png");
+    background:url("/assets/picture.png");
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;

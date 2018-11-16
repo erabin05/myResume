@@ -20,10 +20,10 @@ export class HobbiesComponent implements OnInit {
     let imgGraphicNovel = document.getElementById("hobbies-img3");
     let imgTravel = document.getElementById("hobbies-img4");
 
-    imgsketch.style.backgroundImage = "url(../../assets/sketching/sketching"+this.imgNumberSketch+".png)";
-    imgCinema.style.backgroundImage = "url(../../assets/cinema/cinema"+this.imgNumberCinema+".png)";
-    imgGraphicNovel.style.backgroundImage = "url(../../assets/graphicNovel/graphicNovel"+this.imgNumberGraphicNovel+".png)"
-    imgTravel.style.backgroundImage = "url(../../assets/travel/travel"+this.imgNumberTravel+".png)"
+    imgsketch.style.backgroundImage = "url(assets/sketching/sketching"+this.imgNumberSketch+".png)";
+    imgCinema.style.backgroundImage = "url(assets/cinema/cinema"+this.imgNumberCinema+".png)";
+    imgGraphicNovel.style.backgroundImage = "url(assets/graphicNovel/graphicNovel"+this.imgNumberGraphicNovel+".png)"
+    imgTravel.style.backgroundImage = "url(assets/travel/travel"+this.imgNumberTravel+".png)"
     
 
     
@@ -53,17 +53,17 @@ export class HobbiesComponent implements OnInit {
   let imgTravel = document.getElementById("hobbies-img4");
 
   if (img==1){
-    imgsketch.style.backgroundImage = "url(../../assets/sketching/sketching"+this.imgNumberSketch+".png)";
+    imgsketch.style.backgroundImage = "url(assets/sketching/sketching"+this.imgNumberSketch+".png)";
     this.imgNumberSketch = this.toAnimate(this.imgNumberSketch,limit);
   } else if (img==2) {
-    imgCinema.style.backgroundImage = "url(../../assets/cinema/cinema"+this.imgNumberCinema+".png)";
+    imgCinema.style.backgroundImage = "url(assets/cinema/cinema"+this.imgNumberCinema+".png)";
     this.imgNumberCinema = this.toAnimate(this.imgNumberCinema,limit);
   } else if (img==3) {
-    imgGraphicNovel.style.backgroundImage = "url(../../assets/graphicNovel/graphicNovel"+this.imgNumberGraphicNovel+".png)";
+    imgGraphicNovel.style.backgroundImage = "url(assets/graphicNovel/graphicNovel"+this.imgNumberGraphicNovel+".png)";
     this.imgNumberGraphicNovel = this.toAnimate(this.imgNumberGraphicNovel,limit);
 
   } else if (img==4) {
-    imgTravel.style.backgroundImage = "url(../../assets/travel/travel"+this.imgNumberTravel+".png)";
+    imgTravel.style.backgroundImage = "url(assets/travel/travel"+this.imgNumberTravel+".png)";
     this.imgNumberTravel = this.toAnimate(this.imgNumberTravel,limit);
   }
 

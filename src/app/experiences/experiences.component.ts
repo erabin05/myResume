@@ -343,7 +343,7 @@ export class ExperiencesComponent implements OnInit {
     let timeline = document.getElementById("experience-timeline");
     const image = document.getElementById("experience-square-animation-container");
 
-    image.style.backgroundImage = "url(../../assets/run/run"+this.runImage+".png)";
+    image.style.backgroundImage = "url(assets/run/run"+this.runImage+".png)";
 
     if(this.run == 1){
       this.run =18;
@@ -384,7 +384,7 @@ public scrollLeft;
     let timeline = document.getElementById("experience-timeline");
     const image = document.getElementById("experience-square-animation-container");
 
-    image.style.backgroundImage = "url(../../assets/run/run"+this.runImage+".png)";
+    image.style.backgroundImage = "url(assets/run/run"+this.runImage+".png)";
 
     if(this.run == 18){
       this.run =1;
@@ -419,7 +419,7 @@ public scrollLeft;
       wildCodeSchoolBox.style.opacity = "1";
     };
 
-    document.getElementById("experience-square-animation-container").style.backgroundImage = "url(../../assets/run/run1.png)";
+    document.getElementById("experience-square-animation-container").style.backgroundImage = "url(assets/run/run1.png)";
     let buttonLeft = document.getElementById("experience-square-button-left")
     let buttonRight = document.getElementById("experience-square-button-right")
 
