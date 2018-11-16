@@ -132,8 +132,8 @@
     width:20%;
     margin-left:5%;
     margin-top:-6.5vh;
-    color: #FFC550;
-    border-top: solid #FFC550 0.2px;
+    color: #FDAC1E;
+    border-top: solid #FDAC1E 0.2px;
     transition: 2s;
 }
 
@@ -187,5 +187,5 @@
     background-repeat: no-repeat;
     margin-left: 50%;
     margin-top: 8vh;
-    transition: 0.05s;
+    transition: 0.1s;
 }

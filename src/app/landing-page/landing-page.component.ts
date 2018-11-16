@@ -329,7 +329,7 @@ export class LandingPageComponent implements OnInit {
 
     // Square
     squareContainer.style.marginLeft = "-60%";
-    square.style.backgroundColor = "#FFC550";
+    square.style.backgroundColor = "#FDAC1E";
     // Background
     BackgroundPropriety.style.backgroundColor = "#B9E6DD";
     

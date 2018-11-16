@@ -12,20 +12,20 @@ export class ExperiencesComponent implements OnInit {
   public experienceTitle:string = "Wild Code School - La Loupe";
   public experienceDate:string = "10.2018 - 02.2019";
   public experienceText:string = "Student in web development";
-  public experienceDescription:string = "Learning HTML/CSS, JavaScript, Angular and Java EE";
+  public experienceDescription:string = "Learning HTML/CSS, JavaScript, Angular and Java EE.";
 
   public experiences:any[] = [
     {
       "title":"Wild Code School - La Loupe",
       "date":"10.2018 - 02.2019",
       "text":"Student in web development",
-      "descritpion":"Learning HTML/CSS, JavaScript, Angular and Java EE"
+      "descritpion":"Learning HTML/CSS, JavaScript, Angular and Java EE."
     },
     {
       "title":"Agence Nature - England and Spain",
       "date":"06.2018 - 08.2019",
       "text":"Organizer in a summer camp",
-      "descritpion":""
+      "descritpion":"Creating activities and accompanying children from 12 to 15 years old."
     },
     {
       "title":"Voluntary work - Guinea",
@@ -49,61 +49,61 @@ export class ExperiencesComponent implements OnInit {
       "title":"Pivaut school - Nantes",
       "date":"09.2015 - 06.2016",
       "text":"Student in graphic design - 2nd year",
-      "descritpion":""
+      "descritpion":"learning graphic design : typography, layout, Adobe software and Illustration. Working on the final year study project. Obtained a degree in graphic Design and Illustration."
     },
     {
       "title":"Contrats Bleus - La Loupe",
       "date":"04.2017 - 04.2018",
       "text":"Organizer in a summer camp",
-      "descritpion":"some shit"
+      "descritpion":"Creating activities and accompanying children from 13 to 16 years old."
     },
     {
       "title":"Pivaut school - Nantes",
       "date":"09.2014 - 06.2015",
       "text":"Student in graphic design - 1st year",
-      "descritpion":""
+      "descritpion":"learning the basics of graphic design : typography, layout, Adobe software and Illustration."
     },
     {
       "title":"Commune de berd'huis - Berd'huis",
       "date":"07.2014",
       "text":"Organizer in a summer camp",
-      "descritpion":"some shit"
+      "descritpion":"Creating activities and accompanying children from 3 to 12 years old."
     },
     {
       "title":"Pivaut school - Nantes",
       "date":"09.2013 - 06.2014",
       "text":"Student in applied art",
-      "descritpion":""
+      "descritpion":"learning academic drawing, painting and typography."
     },
     {
       "title":"Les Contrats bleus",
       "date":"07.2013 - 08.2013",
       "text":"Organizer in a summer camp",
-      "descritpion":""
+      "descritpion":"Creating activities and accompanying children from 13 to 16 years old."
     },
     {
       "title":"Pivaut school - Nantes",
       "date":"09.2012 - 06.2013",
       "text":"Student in Applied art - preparatory class",
-      "descritpion":""
+      "descritpion":"learning the basics of academic drawing and painting."
     },
     {
       "title":"Pep 28 - Jouy",
       "date":"07.2012",
-      "text":"Organizer in a summer camp",
+      "text":"Creating activities and accompanying children from 3 to 12 years old.",
       "descritpion":""
     },
     {
       "title":"Highschool",
       "date":"09.2011 - 06.2012",
       "text":"Student in Economics and Social",
-      "descritpion":""
+      "descritpion":"Obtained Baccaleauréat (degree)."
     },
     {
       "title":"Les Contrats Bleus",
       "date":"07 - 2011",
-      "text":"Organizer in a summer camp",
-      "descritpion":""
+      "text":"Internship as organizer in a summer camp",
+      "descritpion":"Creating activities and accompanying children from 3 to 5 years old."
     },
     {
       "title":"Highschool",
@@ -257,7 +257,7 @@ export class ExperiencesComponent implements OnInit {
       this.experienceTitle = current.title;
       this.experienceDate = current.date;
       this.experienceText = current.text;
-      this.experienceDescription = current.description;
+      this.experienceDescription = current.descritpion;
 
       title.style.opacity ="1";
       date.style.opacity ="1";
@@ -419,7 +419,7 @@ public scrollLeft;
       wildCodeSchoolBox.style.opacity = "1";
     };
 
-    document.getElementById("experience-square-animation-container").style.backgroundImage = "url(../../assets/drawing/drawing1.png)";
+    document.getElementById("experience-square-animation-container").style.backgroundImage = "url(../../assets/runtest.png)";
     let buttonLeft = document.getElementById("experience-square-button-left")
     let buttonRight = document.getElementById("experience-square-button-right")
 

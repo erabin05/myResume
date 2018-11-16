@@ -19,26 +19,26 @@ export class BookComponent implements OnInit {
     {
       "img":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/3f73f135231637.56ef1b473916b.gif", 
       "title":"Thé Vert - Graphic design", 
-      "text":"Something Something Something",
+      "text":"'Le Thé Vert' is a small music festival which take place in Nogent-le-rotrou. The project was to create the digital communication of this festival.",
       "link":"https://www.behance.net/gallery/35231637/Th-vert-Festival-de-musique"
     },
     { "img":"../../assets/sketch1.png", 
       "title":"Sketch - Illustration", 
-      "text":"Something Something Something",
+      "text":"Sketches I made during my stay in Guinea-Conakry.",
       "link":"https://www.instagram.com/etiennerbn/"
     },
     { "img":"../../assets/spm.png", 
       "title":"St-Pierre et Miquelon - Illustration", 
-      "text":"Something Something Something"
+      "text":"Illustration from my final year study project at Pivaut school"
     },
     { "img":"../../assets/wild.png", 
       "title":"Wild ! - Web development", 
-      "text":"Something Something Something",
+      "text":"First project of my training at the Wild Code School. The request was to copy an existant tech website and make it responsive.",
       "link":"https://rmtrnsc.github.io/projet1wired/wiredarticle.html"
     },
     { "img":"../../assets/equito.png", 
       "title":"Equito - Graphic Design", 
-      "text":"Something something something",
+      "text":"Student project",
       "link":"https://www.behance.net/gallery/31287035/Equito-jus-de-fruit-equitable"
     },
     { "img":"../../assets/bountyHunter.png", 
@@ -51,12 +51,12 @@ export class BookComponent implements OnInit {
     },
     { "img":"../../assets/folleJournee.png", 
       "title":"Folle Journée - Graphic Design", 
-      "text":"Something something something",
+      "text":"Student project",
       "link":"https://www.behance.net/gallery/31286041/Folle-Journe-Russe"
     },
     { "img":"../../assets/HorrorCover.png", 
       "title":"Horror Cover - Illustration", 
-      "text":"Something Something Something",
+      "text":"Student project",
       "link":"https://www.behance.net/gallery/31484277/Collection-Horreur-Couvertures-Livres"
     },
     { "img":"../../assets/sketch2.png", 
@@ -66,7 +66,7 @@ export class BookComponent implements OnInit {
     },
     { "img":"../../assets/noun.png", 
       "title":"Noun - Packaging", 
-      "text":"",
+      "text":"Student project",
       "link":"https://www.behance.net/gallery/35231255/noun-menu-cremes-glaces"
     }
     
