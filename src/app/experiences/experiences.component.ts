@@ -369,7 +369,6 @@ export class ExperiencesComponent implements OnInit {
 
     var display = document.querySelector('.time');
     this.scrollingRight(1000, display);
-
   };
 
 public scrollLeft; 
@@ -408,12 +407,43 @@ public scrollLeft;
   startScrollingLeft() {
     var display = document.querySelector('.time');
     this.scrollingLeft(1000, display);
-
-    
   };
+
+     // flash
+  public stopFlash(){
+    clearTimeout(this.scrollRight);
+    };
+  // flashing
+  flashing(param:number, display) {
+
+    let buttonRight = document.getElementById("experience-square-button-right");
+
+    if (buttonRight.style.opacity == "0.8") {
+      buttonRight.style.opacity = "0.5";
+    } else {
+    buttonRight.style.opacity = "0.8";
+    }
+
+    if( param > 0 ){
+      this.stopFlash();
+      this.scrollRight = setTimeout( 
+          () => {
+              this.flashing(param - 1, display);
+          },1500);
+    }
+  }
+  // Start flashing
+  startFlash() {
+    var display = document.querySelector('.time');
+    this.flashing(1000, display);
+  };
+  
 
   ngOnInit() {
     const wildCodeSchoolBox = document.getElementById("wild-code-school-box");
+
+      this.startFlash();
+    
 
     if (this.experienceDate == this.experiences[0].date) {
       wildCodeSchoolBox.style.opacity = "1";

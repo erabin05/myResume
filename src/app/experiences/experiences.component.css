@@ -39,12 +39,14 @@
 }
 .experience-name{
     white-space: nowrap;
+    background: #56B9DB;
+    padding: 1vh 1em 1vh 1em;
 }
 .experience-box{
-    margin-left:1em;
+    margin-left:0;
     background: #fff;
     opacity: 0.5;
-    height:4vh;
+    height:5vh;
     width:100%;
     transition: 1s;
 }
@@ -64,27 +66,27 @@
 
 #cqfd{margin-left:45em;}
 #cqfd > .experience-box{width:7em;}
-#cqfd2{
-    margin-right:4.5em;
+#cqfd1-box{
+    margin-left:2em;
 }
 
 #pivaut{margin-left:67em;}
 #pivaut > .experience-box{width:24em;}
 #pivaut4-box, #pivaut3-box, #pivaut2-box {margin-right:7em;}
 
-#contrat-bleu3{margin-left:22.5em;}
+#contrat-bleu3{margin-left:20.5em;}
 #contrat-bleu3 > .experience-box{width:5em;}
 
-#contrat-bleu2{margin-left:22em;}
+#contrat-bleu2{margin-left:19em;}
 #contrat-bleu2 > .experience-box{width:3em;}
 
 #contrat-bleu1{margin-left:20.5em;}
 #contrat-bleu1 > .experience-box{width:3em;}
 
-#berdhuis{margin-left:16.5em;}
+#berdhuis{margin-left:14em;}
 #berdhuis > .experience-box{width:3em;}
 
-#jouy{margin-left:24em;}
+#jouy{margin-left:23em;}
 #jouy > .experience-box{width:3em;}
 
 #highschool{margin-left:2em;}
@@ -134,8 +136,14 @@
 }
 #experience-square-elements-description{
     font-weight: 100;
-    font-size: 0.9em;
     margin-top:3vh;
+}
+#experience-square-elements-title{
+    font-weight: 400;
+}
+#experience-square-elements-text{
+    font-weight: 300;
+    letter-spacing: .1.4rem;
 }
 
 /* buttons */
@@ -186,4 +194,14 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -18vh;
+}
+
+.pre-load-run{
+    display: none;
+    background: url(/assets/run/run1.png),url(/assets/run/run2.png),url(/assets/run/run3.png),
+                url(/assets/run/run4.png),url(/assets/run/run5.png),url(/assets/run/run6.png),
+                url(/assets/run/run7.png),url(/assets/run/run8.png),url(/assets/run/run9.png),
+                url(/assets/run/run10.png),url(/assets/run/run11.png),url(/assets/run/run12.png),
+                url(/assets/run/run13.png),url(/assets/run/run14.png),url(/assets/run/run15.png),
+                url(/assets/run/run16.png),url(/assets/run/run17.png),url(/assets/run/run18.png);
 }

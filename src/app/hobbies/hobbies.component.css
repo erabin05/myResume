@@ -63,15 +63,16 @@
     padding-bottom: 1vh;
     border-bottom:  solid 1px #fff;
     width: 50%;
+    font-weight: 700;
 }
 #hobbies-text2{
- margin-top: 12vh;
+ margin-top: 14vh;
 }
 #hobbies-text3{
-    margin-top: 23vh;
+    margin-top: 27vh;
 }
 #hobbies-text4{
-    margin-top: 35vh;
+    margin-top: 41vh;
 }
 .hobbies-text-container:hover > .hobbies-text{
     color:#FDAC1E;
@@ -89,4 +90,30 @@
     opacity: 0;
     transition: 1s;
     padding-top:1vh;
+    background:#FDAC1E;
+    padding: 2vh 1em 2vh 1em;
+}
+
+.pre-loaded-hobbies{
+    display: none;
+    background: url(/assets/sketching/sketching1),url(/assets/sketching/sketching2),url(/assets/sketching/sketching3),
+                url(/assets/sketching/sketching4),url(/assets/sketching/sketching5),url(/assets/sketching/sketching6),
+                url(/assets/sketching/sketching7),url(/assets/sketching/sketching8),url(/assets/sketching/sketching9),
+                url(/assets/sketching/sketching10),url(/assets/sketching/sketching11),url(/assets/sketching/sketching12),
+                url(/assets/sketching/sketching13),
+
+                url(/assets/cinema/cinema1.png),url(/assets/cinema/cinema2.png),url(/assets/cinema/cinema3.png),
+                url(/assets/cinema/cinema4.png),url(/assets/cinema/cinema5.png),url(/assets/cinema/cinema6.png),
+                url(/assets/cinema/cinema7.png),url(/assets/cinema/cinema8.png),url(/assets/cinema/cinema9.png),
+                url(/assets/cinema/cinema10.png),url(/assets/cinema/cinema11.png),url(/assets/cinema/cinema12.png),
+
+                url(/assets/graphicNovel/graphicNovel1.png),url(/assets/graphicNovel/graphicNovel2.png),url(/assets/graphicNovel/graphicNovel3.png),
+                url(/assets/graphicNovel/graphicNovel4.png),url(/assets/graphicNovel/graphicNovel5.png),url(/assets/graphicNovel/graphicNovel6.png),
+                url(/assets/graphicNovel/graphicNove7.png),url(/assets/graphicNovel/graphicNovel8.png),url(/assets/graphicNovel/graphicNovel9.png),
+                url(/assets/graphicNovel/graphicNovel10.png),
+
+                url(/assets/travel/travel1.png),url(/assets/travel/travel2.png),url(/assets/travel/travel3.png),
+                url(/assets/travel/travel4.png),url(/assets/travel/travel5.png),url(/assets/travel/travel6.png),
+                url(/assets/travel/travel7.png),url(/assets/travel/travel8.png),url(/assets/travel/travel9.png),
+                url(/assets/travel/travel10.png),url(/assets/travel/travel11.png),url(/assets/travel/travel3.png);
 }
