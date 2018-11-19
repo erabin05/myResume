@@ -189,3 +189,17 @@
     margin-top: 8vh;
     transition: 0.1s;
 }
+
+.preload-images{
+    display: none;
+    background: url(/assets/portrait/portrait1.png),url(/assets/portrait/portrait2.png),url(/assets/portrait/portrait3.png),
+                url(/assets/portrait/portrait4.png),url(/assets/portrait/portrait5.png),url(/assets/portrait/portrait6.png),
+                url(/assets/portrait/portrait7.png),url(/assets/portrait/portrait8.png),url(/assets/portrait/portrait9.png),
+                url(/assets/portrait/portrait10.png),url(/assets/portrait/portrait11.png),url(/assets/portrait/portrait12.png),
+                url(/assets/portrait/portrait13.png),url(/assets/portrait/portrait14.png),url(/assets/portrait/portrait15.png),
+                url(/assets/portrait/portrait16.png),url(/assets/portrait/portrait17.png),url(/assets/portrait/portrait18.png),
+                url(/assets/portrait/portrait19.png),url(/assets/portrait/portrait20.png),url(/assets/portrait/portrait21.png),
+                url(/assets/portrait/portrait22.png),url(/assets/portrait/portrait23.png),url(/assets/portrait/portrait24.png),
+                url(/assets/portrait/portrait25.png),url(/assets/portrait/portrait26.png),url(/assets/portrait/portrait27.png),
+                url(/assets/portrait/portrait28.png),url(/assets/portrait/portrait29.png),url(/assets/portrait/portrait30.png);
+}
