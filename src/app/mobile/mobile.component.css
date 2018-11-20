@@ -1,0 +1,35 @@
+#mobile-background{
+    background: #13347A;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+#mobile-square{
+    width: 100%;
+    height: 40vh;
+    background: #040723;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13vh;
+    
+}
+.mobile-text{
+    width: 60%;
+    color: #fff;
+    margin-bottom: 3vh;
+}
+#mobile-img{
+    position: absolute;
+    width: 60%;
+    height: 42vh;
+    background: url(/assets/portrait/portrait19.png);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 48vh;
+    margin-left: 32%;
+}

@@ -1,0 +1,11 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 990px) {
+    landing-page{
+        display:none;
+    }
+}
+@media screen and (min-width: 990px) {
+    app-mobile{
+        display:none;
+    }
+}

@@ -26,10 +26,10 @@
 .button{
     background: none;
     border: none;
-    padding: 1em;
+    padding:2vh;
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 2.2vh;
     transition: 1.5s;
     z-index:1000;
 }

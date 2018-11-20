@@ -15,6 +15,7 @@ import { HelloComponent } from './hello/hello.component';
 import { TictacDirective } from './tictac.directive';
 import { BigBookPictureDirective } from './big-book-picture.directive';
 import { TimeLineDirective } from './time-line.directive';
+import { MobileComponent } from './mobile/mobile.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TimeLineDirective } from './time-line.directive';
     HelloComponent,
     TictacDirective,
     BigBookPictureDirective,
-    TimeLineDirective
+    TimeLineDirective,
+    MobileComponent
   ],
   imports: [
     BrowserModule,

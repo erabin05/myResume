@@ -9,10 +9,10 @@ export class ExperiencesComponent implements OnInit {
 
   constructor() { }
 
-  public experienceTitle:string = "Wild Code School - La Loupe";
-  public experienceDate:string = "10.2018 - 02.2019";
-  public experienceText:string = "Student in web development";
-  public experienceDescription:string = "Learning HTML/CSS, JavaScript, Angular and Java EE.";
+  public experienceTitle:string = ">>> Press the arrow keys to travel in time >>>";
+  public experienceDate:string = "00.0000 - 00.0000";
+  public experienceText:string = "...";
+  public experienceDescription:string = "...";
 
   public experiences:any[] = [
     {
@@ -49,7 +49,7 @@ export class ExperiencesComponent implements OnInit {
       "title":"Pivaut school - Nantes",
       "date":"09.2015 - 06.2016",
       "text":"Student in graphic design - 2nd year",
-      "descritpion":"learning graphic design : typography, layout, Adobe software and Illustration. Working on the final year study project. Obtained a degree in graphic Design and Illustration."
+      "descritpion":"Learning graphic design : typography, layout, Adobe software and Illustration. Working on the final year study project. Obtained a degree in graphic Design and Illustration."
     },
     {
       "title":"Contrats Bleus - La Loupe",
@@ -61,7 +61,7 @@ export class ExperiencesComponent implements OnInit {
       "title":"Pivaut school - Nantes",
       "date":"09.2014 - 06.2015",
       "text":"Student in graphic design - 1st year",
-      "descritpion":"learning the basics of graphic design : typography, layout, Adobe software and Illustration."
+      "descritpion":"Learning the basics of graphic design : typography, layout, Adobe software and Illustration."
     },
     {
       "title":"Commune de berd'huis - Berd'huis",
@@ -73,7 +73,7 @@ export class ExperiencesComponent implements OnInit {
       "title":"Pivaut school - Nantes",
       "date":"09.2013 - 06.2014",
       "text":"Student in applied art",
-      "descritpion":"learning academic drawing, painting and typography."
+      "descritpion":"Learning academic drawing, painting and typography."
     },
     {
       "title":"Les Contrats bleus",
@@ -96,8 +96,8 @@ export class ExperiencesComponent implements OnInit {
     {
       "title":"Highschool",
       "date":"09.2011 - 06.2012",
-      "text":"Student in Economics and Social",
-      "descritpion":"Obtained Baccaleauréat (degree)."
+      "text":"Student in Economics and Social Science",
+      "descritpion":"Obtained Baccaleauréat (Highschool degree)."
     },
     {
       "title":"Les Contrats Bleus",
@@ -108,7 +108,7 @@ export class ExperiencesComponent implements OnInit {
     {
       "title":"Highschool",
       "date":"09.2010 - 06.2011",
-      "text":"Student in Economics and Social",
+      "text":"Student in Economics and Social Science",
       "descritpion":""
     },
     {

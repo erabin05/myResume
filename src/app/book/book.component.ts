@@ -24,12 +24,12 @@ export class BookComponent implements OnInit {
     },
     { "img":"assets/sketch1.png", 
       "title":"Sketch - Illustration", 
-      "text":"During my stay in Guinea-Conakry I drew a lot. I like to capture moments, and things I found characteristic of the place I am. I published some drawing from the two sketchbook I filled on my socials network.",
+      "text":"During my stay in Guinea-Conakry I drew a lot. I like to capture moments, and things I found characteristic of the place I am. I published some drawings from the two sketchbooks I filled on my socials network.",
       "link":"https://www.instagram.com/etiennerbn/"
     },
     { "img":"assets/spm.png", 
       "title":"St-Pierre et Miquelon - Illustration", 
-      "text":"Illustration from my final year study project at Pivaut school. I worked on the identity of the town and Island St-Pierre et Miquelon, witch my mother come from. I created a series of Illustrations and all the communication for there tourist office."
+      "text":"Illustration from my final year study project at Pivaut school. I worked on the identity of the town and Island St-Pierre et Miquelon, witch my mother come from. I created a series of Illustrations and all the communication for their tourist office."
     },
     { "img":"assets/wild.png", 
       "title":"Wild ! - Web development", 
@@ -48,11 +48,11 @@ export class BookComponent implements OnInit {
     },
     { "img":"assets/stMaurice.png", 
       "title":"St-Maurice St-Germain - Graphic Design", 
-      "text":"The town of St-Maurice St-Germain, wich I come from, created a visit route to show all of its monuments. In order to make it, I work with them for create signs with descriptions and illustrations of those monuments."
+      "text":"The town of St-Maurice St-Germain, wich I come from, created a visit route to show all of its monuments. In order to make it, I work with them to create signs with descriptions and illustrations of these monuments."
     },
     { "img":"assets/folleJournee.png", 
       "title":"Folle Journée - Graphic Design", 
-      "text":"Student project - Poster for the classic music festival 'La folle jounrée' with the thematic 'Russia'.",
+      "text":"Student project - Poster for the classic music festival 'La folle journée' with the thematic 'Russia'.",
       "link":"https://www.behance.net/gallery/31286041/Folle-Journe-Russe"
     },
     { "img":"assets/HorrorCover.png", 
@@ -62,7 +62,7 @@ export class BookComponent implements OnInit {
     },
     { "img":"assets/sketch2.png", 
       "title":"Sketch - Illustration", 
-      "text":"I did not only sketeched in my stay in Africa, I do it every day of my life. On my social network you can find some of my draing that I find the most interesting.",
+      "text":"I did not only sketeched during my stay in Africa, I do it every day of my life. On my social network you can find some of my drawings that I find the most interesting.",
       "link":"https://www.instagram.com/etiennerbn/"
     },
     { "img":"assets/noun.png", 
