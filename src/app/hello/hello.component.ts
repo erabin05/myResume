@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HelloComponent implements OnInit {
 
   public hello:string = "Hello !";
-  public helloText2:string = "Student in web development";
+  public helloText2:string = "a Student in web development";
 
   constructor() { }
 
@@ -31,23 +31,23 @@ export class HelloComponent implements OnInit {
     setTimeout(()=>{
 
       setInterval(()=>{
-        if(this.helloText2 == "A Student in web development"){
+        if(this.helloText2 == "a Student in web development"){
           helloText2.style.opacity="0";
           setTimeout(()=>{
             helloText2.style.opacity="1";
-            this.helloText2 ="A Graphic designer";
+            this.helloText2 ="a Graphic designer";
           },2000);
-        } else if (this.helloText2 == "A Graphic designer") {
+        } else if (this.helloText2 == "a Graphic designer") {
           helloText2.style.opacity="0";
           setTimeout(()=>{
             helloText2.style.opacity="1";
-            this.helloText2 ="An Illustrator";
+            this.helloText2 ="an Illustrator";
           },2000);
         } else {
           helloText2.style.opacity="0";
           setTimeout(()=>{
             helloText2.style.opacity="1";
-            this.helloText2 ="A Student in web development";
+            this.helloText2 ="a Student in web development";
           },2000);
         }
       },4000);
