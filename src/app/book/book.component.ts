@@ -19,7 +19,7 @@ export class BookComponent implements OnInit {
     {
       "img":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/3f73f135231637.56ef1b473916b.gif", 
       "title":"Thé Vert - Graphic design", 
-      "text":"'Le Thé Vert' is a small music festival which take place in Nogent-le-rotrou. The project was to create the digital communication of this festival.",
+      "text":"'Le Thé Vert' is a small music festival which takes place in Nogent-le-rotrou. The project was to create the digital communication of this festival.",
       "link":"https://www.behance.net/gallery/35231637/Th-vert-Festival-de-musique"
     },
     { "img":"assets/sketch1.png", 
@@ -29,7 +29,7 @@ export class BookComponent implements OnInit {
     },
     { "img":"assets/spm.png", 
       "title":"St-Pierre et Miquelon - Illustration", 
-      "text":"Illustration from my final year study project at Pivaut school. I worked on the identity of the town and Island St-Pierre et Miquelon, witch my mother come from. I created a series of Illustrations and all the communication for their tourist office."
+      "text":"Illustration from my final year study project at Pivaut school. I worked on the identity of the town and Island St-Pierre et Miquelon, where my mother come from. I created a series of Illustrations and all the communication for their tourist office."
     },
     { "img":"assets/wild.png", 
       "title":"Wild ! - Web development", 
@@ -48,7 +48,7 @@ export class BookComponent implements OnInit {
     },
     { "img":"assets/stMaurice.png", 
       "title":"St-Maurice St-Germain - Graphic Design", 
-      "text":"The town of St-Maurice St-Germain, wich I come from, created a visit route to show all of its monuments. In order to make it, I work with them to create signs with descriptions and illustrations of these monuments."
+      "text":"The town of St-Maurice St-Germain, where I come from, created a visit route to show all of its monuments. In order to make it, I work with them to create signs with descriptions and illustrations of these monuments."
     },
     { "img":"assets/folleJournee.png", 
       "title":"Folle Journée - Graphic Design", 

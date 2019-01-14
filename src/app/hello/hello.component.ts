@@ -31,23 +31,23 @@ export class HelloComponent implements OnInit {
     setTimeout(()=>{
 
       setInterval(()=>{
-        if(this.helloText2 == "Student in web development"){
+        if(this.helloText2 == "A Student in web development"){
           helloText2.style.opacity="0";
           setTimeout(()=>{
             helloText2.style.opacity="1";
-            this.helloText2 ="Graphic designer";
+            this.helloText2 ="A Graphic designer";
           },2000);
-        } else if (this.helloText2 == "Graphic designer") {
+        } else if (this.helloText2 == "A Graphic designer") {
           helloText2.style.opacity="0";
           setTimeout(()=>{
             helloText2.style.opacity="1";
-            this.helloText2 ="Illustrator";
+            this.helloText2 ="An Illustrator";
           },2000);
         } else {
           helloText2.style.opacity="0";
           setTimeout(()=>{
             helloText2.style.opacity="1";
-            this.helloText2 ="Student in web development";
+            this.helloText2 ="A Student in web development";
           },2000);
         }
       },4000);
